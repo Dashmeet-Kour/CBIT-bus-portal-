@@ -1,0 +1,21 @@
+.contactcol{
+    width: 50%;
+    margin-top: 10px;
+}
+.addresscol{
+    width: 40%;
+    padding-top: 10px;
+}
+.addresscol address p{
+    padding-bottom: 8px;
+    font-size: 15px;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.416);
+}
+.flexcontact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .contactform input{
+    width: 68.5%;
+  }

@@ -1,0 +1,328 @@
+.pay-btn{
+    margin-top: 5px;
+  }
+  .pay-btn .homelogin{
+    border: none;
+    border-radius: 5px;
+  }
+  .input-border{
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid hsl(0deg 0% 84%);
+    background-color: #fff;
+  }
+  .inputrow input::placeholder{
+    color: #666;
+  }
+  
+  .payment-box{
+    width: 710px; 
+      max-width: 78%;
+      /* height: 35%; */
+      /* background-color: #fff; */
+      margin-top: 15px;
+      padding: 0px;
+  }
+  
+  .image-size{
+    width: 90%;
+  }
+  .payment-box h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #0A0E0F;
+  }
+  
+  .payment-box li{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4E4F51;
+    font-family: 'Nunito Sans', sans-serif;
+    list-style: none;
+    padding: 0px;
+  }
+  
+  .payment-box li::before{
+    /* content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAANCAYAAACkTj4ZAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACESURBVHgBpdFRCoAgDAbgWQQdYy+RHaOTd43e8h4RtglG2Yxp/9Nk2wdDAz9ircXDm4XrBipzQ5DfBiqSIG43fi6GJMStqyuCcgj31NAXEqBhnDYu0kYJwom/hh0NIi3UIAFqqcEDEqZFwmm5hZ4KLXJBEhZP1iAPSMBAi7ygBAMtwjkBK1GFdZ6xPyAAAAAASUVORK5CYII=); */
+    font-size: 20px;
+    vertical-align: middle;
+    padding-right: 20px;
+  }
+  
+  .tip-center{
+    padding-left: 0;
+  }
+  .inputrow{
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-state{
+    display: flex;
+    justify-content: space-between;
+  }
+  .registerform{
+    width: 50%;
+    margin:auto;
+  }
+  .check-center{
+    position: relative;
+    top: 1.4rem;
+    padding: 0 3rem;
+  }
+  .main-label label {
+    margin: 0;
+  }
+  
+  .tipping-check{
+  
+  }
+  .checkout-tip{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 50%;
+    border-radius: 20px;
+    border: 0.5px solid #ffd9007f;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 32px 5px 0px 5px;
+    padding: 7px;
+    height: 100%;
+  }
+  .returns{
+    border-radius: 3px;
+    display: flex;
+    justify-content:right;
+  }
+  .returns span{
+    font-size:1rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #ffffff;
+    background: #a55947;
+    border-bottom: 1px solid #e97f65;
+    padding: 6px 6px;
+    margin: 12px 0;
+    border-radius: 3px;
+  }
+  .tipping-list{
+  padding: 0;
+  }
+  
+  .tipping-list li{
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 15px;
+  list-style: none;
+  }
+  
+  .tipping-list li i{
+    color: #a55947;
+    padding-right: 10px;
+  }
+  
+  .center-image{
+    /* position: relative; */
+    /* bottom: 4.1rem; */
+  }
+  
+  .css-319lph-ValueContainer{
+    height: 53px;
+    margin-top: -5px
+  }
+  .sel-main {
+    display: flex;
+    padding: 8px 0px;
+    grid-gap: 10px;
+    align-items: center;
+  }
+  .sel-main p {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4e4f51;
+  }
+  .wel-form {
+    position: absolute;
+    left: 0;
+    padding: 0;
+  }
+  .atmcard .modal-content{
+    background-color: #ccc;
+  }
+  .image-center{
+    margin: auto;
+  }
+  .pack-main {
+    /* background: url('../../Images/welcome-img.png'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100Vh;
+    /* height: 100%; */
+  }
+  .css-6j8wv5-Input {
+    height: 50px;
+    border-radius: 15px;
+  }
+  section.package-sec {
+    padding: 60px 0px;
+  }
+  .boxcontant{
+    background-color: "white" !important;
+  }
+  .cardboxes ::placeholder{
+    color: rgb(68, 66, 66);
+  }
+  .cardcard{
+    width :100% !important;
+    justify-content: space-evenly !important;
+    flex-direction: row;
+    
+  }
+  /* responsive */
+  
+  @media (max-width: 992px) {
+    h1.main_head {
+      text-align: center;
+    }
+    section.package-sec {
+      padding: 40px 0px;
+    }
+    .flex_box {
+      gap: 25px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .btn_two {
+      margin: 0px 20px 25px 25px;
+    }
+    .flex_box {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      padding: 0px;
+      text-align: center;
+    }
+    .list_item {
+      padding-left: 20px;
+      text-align: left;
+    }
+    .box_one {
+      width: 100% !important;
+    }
+    .btn_two {
+      margin: 0px 20px 20px 25px !important;
+    }
+  }
+  
+  /* 
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    background-color: #eee;
+    height: 100vh;
+  }
+  .wrapper .innerWrapper {
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .wrapper .innerWrapper .title {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    color: #383838;
+    margin-bottom: 30px;
+  }
+  .wrapper .innerWrapper label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .wrapper .innerWrapper .row {
+    width: 100%;
+    margin-bottom: 15px;
+  
+  }
+  .wrapper .innerWrapper .row input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+  .wrapper .innerWrapper .row input:focus {
+    outline: none;
+  }
+  .wrapper .innerWrapper .rowPaymentInput {
+    border: 1px solid #ccc;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  .wrapper .innerWrapper .addressWrapper .rowSelect {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .wrapper .innerWrapper .addressWrapper .rowSelect input {
+    width: 100%;
+    position: relative;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    height: calc(100% - 21px);
+    border-radius: 5px;
+  
+  }
+  .wrapper .innerWrapper .addressWrapper .rowSelect input:focus {
+    outline: none;
+  }
+  .wrapper .innerWrapper .addressWrapper .rowSelect > div {
+    width: 50%;
+  }
+  .wrapper .innerWrapper .addressWrapper .rowSelect > div:first-child {
+    margin-right: 10px;
+  }
+  .wrapper .innerWrapper .addressWrapper .btnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+  }
+  .wrapper .innerWrapper .addressWrapper .btnContainer button {
+    cursor: pointer;
+    background-color: #3166ec;
+    width: 150px;
+    border: none;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  .cardcard{
+    
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    width: 100%!important;
+    height: 50px;
+  
+  } */
